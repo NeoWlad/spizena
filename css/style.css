@@ -571,10 +571,6 @@ body {
 
 
 
-    .poster__playlist {
-        margin-top: -4%;
-    }
-
     .poster__playlist h1 {
         font-size: 25px;
     }
@@ -583,15 +579,17 @@ body {
         text-align: left;
         margin-top: 5px;
     }
-
+    .poster__playlist-text audio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .poster__playlist-text p {
 
         font-size: 16px;
 
     }
-
-
 
 
 
