@@ -88,7 +88,7 @@ body {
     height: 100%;
     left: 0;
     top: 0%;
-    background-color: #817e7e00;
+    background-color: #fe080800;
     z-index: 2;
 }
 
@@ -134,7 +134,7 @@ body {
     display: inline-block;
     vertical-align: top;
     margin: 20px;
-    color: #313131;
+    color: #dedede;
     text-decoration: none;
     transition: color .1s linear;
 }
@@ -144,7 +144,7 @@ body {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #35525d;
+    background-color: #9c9c9c;
     opacity: 0;
     top: 100%;
     left: 0;
@@ -154,7 +154,7 @@ body {
 
 .menu__link:hover {
     text-decoration: none;
-    color: #35525d;
+    color: #9c9c9c;
 }
 
 .menu__link:hover:after {
@@ -219,7 +219,7 @@ body {
 
 .poster__text p {
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
@@ -244,7 +244,7 @@ body {
 
 .poster__playlist h1 {
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -262,7 +262,7 @@ body {
 .poster__playlist-text p {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
@@ -284,7 +284,7 @@ body {
 
 .clips__text {
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -312,7 +312,7 @@ body {
 
 .poster__contacts p {
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
@@ -329,7 +329,7 @@ body {
 .poster__contacts-text p {
     padding: 10px;
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -339,7 +339,7 @@ body {
 .poster__contacts-text1 p {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #313131;
+    color: #dedede;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -382,7 +382,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    color: #000000;
+    color: #dedede;
     text-align: center
 }
 
@@ -460,7 +460,7 @@ body {
 
     .header__burger span {
         position: absolute;
-        background-color: #000000;
+        background-color: #dedede;
         left: 0;
         width: 100%;
         height: 2px;
@@ -471,7 +471,7 @@ body {
     .header__burger:before,
     .header__burger:after {
         content: '';
-        background-color: #000000;
+        background-color: #dedede;
         position: absolute;
         width: 100%;
         height: 2px;
@@ -508,7 +508,7 @@ body {
         height: 100%;
         top: -100%;
         overflow: auto;
-        background-color: rgba(118, 255, 159, 0.725);
+        background-color: rgba(55, 55, 55, 0.725);
         padding: 80px 0px 0px 0px;
         transition: all 0.3s ease 0s;
     }
@@ -571,6 +571,7 @@ body {
 
 
 
+
     .poster__playlist h1 {
         font-size: 25px;
     }
@@ -579,6 +580,7 @@ body {
         text-align: left;
         margin-top: 5px;
     }
+
     .poster__playlist-text audio {
         display: block;
         margin-left: auto;
@@ -590,6 +592,8 @@ body {
         font-size: 16px;
 
     }
+
+
 
 
 
