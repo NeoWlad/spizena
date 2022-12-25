@@ -248,7 +248,6 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
-    text-transform: uppercase;
     z-index: 2;
 }
 
@@ -276,6 +275,9 @@ body {
 /*----------------------------------------*/
 /*--------контент Клипы страницы ------------*/
 
+.content__playlist {
+    margin-top: 170px;
+}
 
 .content__poster {
     text-align: center;
@@ -569,7 +571,9 @@ body {
     /*--------контент плейлист страницы ------------*/
 
 
-
+    .content__playlist {
+        margin-top: 100px;
+    }
 
 
     .poster__playlist h1 {
